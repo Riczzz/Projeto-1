@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat?styles=17402,17398,17400,17403,17391,17393,17389');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'MontSerrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #182C61;
+    padding: 16px 0;
+    color: #ecf0f1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 900;
+    text-shadow: 4px 3px 1px #1b1b1b;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #d7d7d7;
+    font-weight: 700;
+    transition: all 0.3s;
+    margin-right: 15px;
+} 
+
+header nav li a:hover {
+    color: #ecf0f1;
+}
+
+
